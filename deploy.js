@@ -7,7 +7,7 @@ const { interface , bytecode } = require('./compile.js');
 //1. Our secret phrase got via metamask
 //2. Rinkeby network key provided by the infutura.
 const provider = new HDWalletProvider(
-  'market drift trick scare squeeze now car addict small flush grocery more',
+  'seed words',
   'https://rinkeby.infura.io/v3/aa02f41993434b5b81b22700202af5ad'
 );
 
